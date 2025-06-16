@@ -1,0 +1,7 @@
+[build]
+  command = "pnpm install && pnpm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18" # Tentar uma versão Node.js mais antiga e estável
+  PNPM_VERSION = "8"  # Tentar uma versão pnpm mais antiga e estável
